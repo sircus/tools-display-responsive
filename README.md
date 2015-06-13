@@ -13,7 +13,7 @@
 > use npm:
 
 ```bash
-$ npm install sircus-tools-display-responsive
+$ npm install sircus-tools-display-responsive && npm install sircus-global-proprety
 ```
 
 ## Usage
@@ -22,13 +22,15 @@ $ npm install sircus-tools-display-responsive
 
 input.css
 ```css
-@import "sircus-tools-display-responsive"
+@import "sircus-tools-display-responsive";
+@import "sircus-global-proprety";
 ```
 
 > use sass:
 
 input.scss
 ```css
+@import "node_modules/sircus-global-proprety/converted";
 @import "node_modules/sircus-tools-display-responsive/converted"
 ```
 
