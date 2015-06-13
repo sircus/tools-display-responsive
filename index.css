@@ -19,14 +19,6 @@
   .t-sm-block { display: block !important; }
   .t-sm-inlineBlock { display: inline-block !important; }
   .t-sm-inline { display: inline !important; }
-  .t-sm-table {
-    display: table !important;
-    table-layout: fixed !important;
-    width:100% !important;
-  }
-  .t-sm-table-col {
-    display: table-cell !important;
-  }
 }
 
 
@@ -35,14 +27,6 @@
   .t-md-block { display: block !important; }
   .t-md-inlineBlock { display: inline-block !important; }
   .t-md-inline { display: inline !important; }
-  .t-md-table {
-    display: table !important;
-    table-layout: fixed !important;
-    width:100% !important;
-  }
-  .t-md-table-col {
-    display: table-cell !important;
-  }
 }
 
 
@@ -51,12 +35,4 @@
   .t-lg-block { display: block !important; }
   .t-lg-inlineBlock { display: inline-block !important; }
   .t-lg-inline { display: inline !important; }
-  .t-lg-table {
-    display: table !important;
-    table-layout: fixed !important;
-    width:100% !important;
-  }
-  .t-lg-table-col {
-    display: table-cell !important;
-  }
 }
