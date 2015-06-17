@@ -1,0 +1,10 @@
+/*
+ * sircus-tools-display-responsive(lg)
+ ================================================== */
+
+@media (--g-viewport-lg) {
+  .t-lg-none { display: none !important; }
+  .t-lg-block { display: block !important; }
+  .t-lg-inlineBlock { display: inline-block !important; }
+  .t-lg-inline { display: inline !important; }
+}

@@ -5,33 +5,43 @@
 > A responsive display tools Module for Sircus.
 
 ## Dependencies
-- [sircus-global-proprety](https://github.com/sircus/global-property)
+- [sircus-global-property](https://github.com/sircus/global-property)
 
 
 ## Installation
 
-> use npm:
+> npm:
 
 ```bash
-$ npm install sircus-tools-display-responsive sircus-global-proprety
+$ npm install sircus-tools-display-responsive sircus-global-property
 ```
 
 ## Usage
 
-> use cssnext:
+> cssnext:
 
 input.css
 ```css
 @import "sircus-tools-display-responsive";
-@import "sircus-global-proprety";
+/*
+@import "sircus-tools-display-responsive/lib/base";
+@import "sircus-tools-display-responsive/lib/sm";
+@import "sircus-tools-display-responsive/lib/md";
+@import "sircus-tools-display-responsive/lib/lg";
+*/
+@import "sircus-global-property";
 ```
 
-> use sass:
+> sass:
 
 input.scss
-```css
-@import "node_modules/sircus-global-proprety/converted";
-@import "node_modules/sircus-tools-display-responsive/converted"
+```scss
+@import "./node_modules/sircus-global-property/converted";
+@import "./node_modules/sircus-tools-display-responsive/converted";
+// @import "./node_modules/sircus-tools-display-responsive/scss/base";
+// @import "./node_modules/sircus-tools-display-responsive/scss/sm";
+// @import "./node_modules/sircus-tools-display-responsive/scss/md";
+// @import "./node_modules/sircus-tools-display-responsive/scss/lg";
 ```
 
 
