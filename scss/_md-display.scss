@@ -1,8 +1,9 @@
+
 /*
  * sircus-tools-display-responsive(md)
  ================================================== */
 
-@media (--g-viewport-md) {
+@media #{$g-viewport-md} {
   .t-md-none { display: none !important; }
   .t-md-block { display: block !important; }
   .t-md-inlineBlock { display: inline-block !important; }

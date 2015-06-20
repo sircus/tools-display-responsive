@@ -20,10 +20,10 @@
     "url": "https://github.com/sircus/tools-display-responsive.git"
   },
   "scripts": {
-    "build:base": "css2scss ./lib/base.css ./scss/_base.scss",
-    "build:sm": "css2scss ./lib/sm.css ./scss/_sm.scss",
-    "build:md": "css2scss ./lib/md.css ./scss/_md.scss",
-    "build:lg": "css2scss ./lib/lg.css ./scss/_lg.scss",
+    "build:base": "css2scss ./lib/base-display.css ./scss/_base-display.scss",
+    "build:sm": "css2scss ./lib/sm-display.css ./scss/_sm-display.scss",
+    "build:md": "css2scss ./lib/md-display.css ./scss/_md-display.scss",
+    "build:lg": "css2scss ./lib/lg-display.css ./scss/_lg-display.scss",
     "build": "npm run build:base && npm run build:sm && npm run build:md && npm run build:lg"
   },
   "dependencies": {
