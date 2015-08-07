@@ -8,4 +8,6 @@
   .t-lg-block { display: block !important; }
   .t-lg-inlineBlock { display: inline-block !important; }
   .t-lg-inline { display: inline !important; }
+  .t-lg-table { display:table !important; }
+  .t-lg-tableCell { display:table-cell !important; }
 }
