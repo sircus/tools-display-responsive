@@ -20,7 +20,6 @@
     "url": "https://github.com/sircus/tools-display-responsive.git"
   },
   "scripts": {
-    "build:base": "css2scss ./lib/base-display.css ./scss/_base-display.scss",
     "build:sm": "css2scss ./lib/sm-display.css ./scss/_sm-display.scss",
     "build:md": "css2scss ./lib/md-display.css ./scss/_md-display.scss",
     "build:lg": "css2scss ./lib/lg-display.css ./scss/_lg-display.scss",
