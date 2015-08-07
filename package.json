@@ -1,10 +1,10 @@
 {
   "name": "sircus-tools-display-responsive",
   "description": "Responsive css display tools Module for Sircus.",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "homepage": "http://sircus.github.io",
   "keywords": [
-    "scalabe",
+    "modular",
     "design",
     "css",
     "cssnext",
@@ -23,7 +23,7 @@
     "build:sm": "css2scss ./lib/sm-display.css ./scss/_sm-display.scss",
     "build:md": "css2scss ./lib/md-display.css ./scss/_md-display.scss",
     "build:lg": "css2scss ./lib/lg-display.css ./scss/_lg-display.scss",
-    "build": "npm run build:base && npm run build:sm && npm run build:md && npm run build:lg"
+    "build": "npm run build:sm && npm run build:md && npm run build:lg"
   },
   "dependencies": {
     "sircus-global-property": "^0.0.1"
