@@ -22,7 +22,6 @@ input.css
 ```css
 @import "sircus-tools-display-responsive";
 /*
-@import "sircus-tools-display-responsive/lib/base-display.css";
 @import "sircus-tools-display-responsive/lib/sm-display.css";
 @import "sircus-tools-display-responsive/lib/md-display.css";
 @import "sircus-tools-display-responsive/lib/lg-display.css";
@@ -36,7 +35,6 @@ input.scss
 ```scss
 @import "./node_modules/sircus-global-property/converted";
 @import "./node_modules/sircus-tools-display-responsive/converted";
-// @import "./node_modules/sircus-tools-display-responsive/scss/base-display";
 // @import "./node_modules/sircus-tools-display-responsive/scss/sm-display";
 // @import "./node_modules/sircus-tools-display-responsive/scss/md-display";
 // @import "./node_modules/sircus-tools-display-responsive/scss/lg-display";
@@ -50,16 +48,22 @@ input.scss
 <div class="t-sm-block"></div>
 <div class="t-sm-inlineBlock"></div>
 <div class="t-sm-inline"></div>
+<div class="t-sm-table"></div>
+<div class="t-sm-tableCell"></div>
 
 <div class="t-md-none"></div>
 <div class="t-md-block"></div>
 <div class="t-md-inlineBlock"></div>
 <div class="t-md-inline"></div>
+<div class="t-md-table"></div>
+<div class="t-md-tableCell"></div>
 
 <div class="t-lg-none"></div>
 <div class="t-lg-block"></div>
 <div class="t-lg-inlineBlock"></div>
 <div class="t-lg-inline"></div>
+<div class="t-lg-table"></div>
+<div class="t-lg-tableCell"></div>
 ```
 
 
