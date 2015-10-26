@@ -46,6 +46,7 @@ input.scss
 ```html
 <div class="t-sm-none"></div>
 <div class="t-sm-block"></div>
+<div class="t-sm-flex"></div>
 <div class="t-sm-inlineBlock"></div>
 <div class="t-sm-inline"></div>
 <div class="t-sm-table"></div>
@@ -53,6 +54,7 @@ input.scss
 
 <div class="t-md-none"></div>
 <div class="t-md-block"></div>
+<div class="t-md-flex"></div>
 <div class="t-md-inlineBlock"></div>
 <div class="t-md-inline"></div>
 <div class="t-md-table"></div>
@@ -60,6 +62,7 @@ input.scss
 
 <div class="t-lg-none"></div>
 <div class="t-lg-block"></div>
+<div class="t-lg-flex"></div>
 <div class="t-lg-inlineBlock"></div>
 <div class="t-lg-inline"></div>
 <div class="t-lg-table"></div>

@@ -1,11 +1,10 @@
-
 /*
  * sircus-tools-display-responsive(md)
  ================================================== */
-
 @media (--g-viewport-md) {
   .t-md-none { display: none !important; }
   .t-md-block { display: block !important; }
+  .t-md-flex { display: flex !important; }
   .t-md-inlineBlock { display: inline-block !important; }
   .t-md-inline { display: inline !important; }
   .t-md-table { display:table !important; }
