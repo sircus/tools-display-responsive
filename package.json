@@ -1,7 +1,7 @@
 {
   "name": "sircus-tools-display-responsive",
-  "description": "Responsive css display tools Module for Sircus.",
-  "version": "0.1.0",
+  "description": "CSS Responsive Tools Module For Display.",
+  "version": "0.2.0",
   "homepage": "http://sircus.github.io",
   "keywords": [
     "modular",
@@ -11,7 +11,7 @@
     "rwd"
   ],
   "author": {
-    "name": "Yasuyuki Enomoto",
+    "name": "blivesta",
     "url": "http://blivesta.com"
   },
   "license": "MIT",
@@ -24,9 +24,6 @@
     "build:md": "css2scss ./lib/md-display.css ./scss/_md-display.scss",
     "build:lg": "css2scss ./lib/lg-display.css ./scss/_lg-display.scss",
     "build": "npm run build:sm && npm run build:md && npm run build:lg"
-  },
-  "dependencies": {
-    "sircus-global-property": "^0.0.1"
   },
   "devDependencies": {
     "sircus-process-css2scss": "^0.2.0"
