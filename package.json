@@ -1,13 +1,13 @@
 {
   "name": "sircus-tools-display-responsive",
-  "description": "CSS Responsive Tools Module For Display.",
+  "description": "Tools Modules For Responsive CSS Display.",
   "version": "0.2.0",
   "homepage": "http://sircus.github.io",
   "keywords": [
-    "modular",
-    "design",
     "css",
-    "cssnext",
+    "design",
+    "modular",
+    "scalable",
     "rwd"
   ],
   "author": {
