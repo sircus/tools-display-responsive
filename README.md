@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/sircus-tools-display-responsive.svg?style=flat)](https://www.npmjs.com/package/sircus-tools-display-responsive)
 
 ## Dependencies
-- [sircus-global-property](https://github.com/sircus/global-property)
+- [sircus-variables](https://github.com/sircus/variables)
 
 
 ## Installation
@@ -11,7 +11,7 @@
 > npm:
 
 ```bash
-$ npm install sircus-tools-display-responsive sircus-global-property
+$ npm install sircus-tools-display-responsive sircus-variables
 ```
 
 ## Usage
@@ -21,23 +21,15 @@ $ npm install sircus-tools-display-responsive sircus-global-property
 input.css
 ```css
 @import "sircus-tools-display-responsive";
-/*
-@import "sircus-tools-display-responsive/lib/sm-display.css";
-@import "sircus-tools-display-responsive/lib/md-display.css";
-@import "sircus-tools-display-responsive/lib/lg-display.css";
-*/
-@import "sircus-global-property";
+@import "sircus-variables";
 ```
 
 > sass:
 
 input.scss
 ```scss
-@import "./node_modules/sircus-global-property/converted";
+@import "./node_modules/sircus-variables/converted";
 @import "./node_modules/sircus-tools-display-responsive/converted";
-// @import "./node_modules/sircus-tools-display-responsive/scss/sm-display";
-// @import "./node_modules/sircus-tools-display-responsive/scss/md-display";
-// @import "./node_modules/sircus-tools-display-responsive/scss/lg-display";
 ```
 
 
